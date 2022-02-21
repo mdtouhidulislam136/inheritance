@@ -2,15 +2,14 @@ package inheritance;
 
 public class  main {
     public static void main(String[] args) {
-        Trainee trainee = new Trainee("Trainee", 1000, "Ukka", 23, 12345);
-        trainee.printStudentDate();
-        System.out.println("**************************************************************************************************");
-        Trainee trainee2 = new Trainee("Trainee", 1000, "Jani", 23, 12345);
-        trainee2.printStudentDate();
 
-        System.out.println("**************************************************************************************************");
-        Trainee trainee3 = new Trainee("Trainee", 1000, "Md Touhidul Isalm", 23, 12345);
-        trainee3.printStudentDate();
+        Student student = new Student("Marko", 27, 34323);
+
+        Trainee trainee = new Trainee("bugeti", 234333, "Taru", 23, 32244);
+
+        student.printStudentDate();
+
+        trainee.printStudentDate();
     }
 
 

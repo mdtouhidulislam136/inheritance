@@ -1,6 +1,6 @@
 package inheritance;
 
-public class Trainee extends Student{
+public class Trainee extends Student {
     String employer;
     float salary;
 
@@ -12,6 +12,7 @@ public class Trainee extends Student{
 
 
 
+    @Override
     void printStudentDate(){
         System.out.println("Student name: " + name);
         System.out.println("Student age: " + age);
@@ -20,5 +21,5 @@ public class Trainee extends Student{
         System.out.println("Student salary: " + salary + " Euro");
 
     }
-
 }
+

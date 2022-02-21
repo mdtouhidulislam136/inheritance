@@ -11,7 +11,11 @@ public class Student {
         this.studentId = studentId;
     }
 
+    void printStudentDate(){
+        System.out.println("Student name: " + name);
+        System.out.println("Student age: " + age);
+        System.out.println("Student Id: " + studentId);
 
-
-
+    }
 }
+
