@@ -12,7 +12,7 @@ public class Trainee extends Student{
 
 
 
-    void display(){
+    void printStudentDate(){
         System.out.println("Student name: " + name);
         System.out.println("Student age: " + age);
         System.out.println("Student Id: " + studentId);
